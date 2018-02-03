@@ -1,0 +1,23 @@
+{
+    "name": "xuedhh/greencontent",
+    "description": "Aliyun Green SDK for PHP",
+    "keywords": [ "aliyun", "green", "sdk" ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "hehe",
+            "email": "hh@weiheinc.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "files":["src/Core/Config.php"],
+        "psr-4":{ 
+            "Content\\":"src/"
+        } 
+    }
+}
