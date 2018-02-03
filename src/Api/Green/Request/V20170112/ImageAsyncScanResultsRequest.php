@@ -17,9 +17,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Green\Request\V20170112;
-
-class ImageAsyncScanResultsRequest extends \RoaAcsRequest
+namespace Content\Api\Green\Request\V20170112;
+use Content\Core\RoaAcsRequest;
+class ImageAsyncScanResultsRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{
