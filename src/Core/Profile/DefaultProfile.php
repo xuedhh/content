@@ -6,6 +6,7 @@ use Content\Core\Auth\ShaHmac1Signer;
 use Content\Core\Regions\ProductDomain;
 use Content\Core\Regions\Endpoint;
 use Content\Core\Regions\EndpointProvider;
+use Content\Core\Regions\LocationService;
 class DefaultProfile implements IClientProfile
 {
 	private static $profile;
