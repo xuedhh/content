@@ -15,8 +15,7 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "files":["src/Core/Config.php"],
-        "psr-4":{ 
+        "psr-4":{
             "Content\\":"src/"
         } 
     }
